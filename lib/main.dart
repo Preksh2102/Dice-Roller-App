@@ -140,7 +140,7 @@ class _KingOfTokyoScreenState extends State<KingOfTokyoScreen> {
   void _startNewTurn() {
     activeDice = List.generate(6, (_) => _rng.nextInt(6) + 1);
     storedDice.clear();
-    rollsLeft = 3;
+    rollsLeft = 2;
   }
 
   void rollDice() {
